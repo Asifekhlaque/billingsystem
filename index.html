@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bill-main">
+        <h1>Billing System</h1>
+        <ul>
+        <li>If you purchase any product at the rupees of Rs. 1000 or more than Rs. 1000, you will get a 20% discount</li>
+        <li>If you purchase any product at the rupees of Rs. 500 or more than Rs. 500, you will get a 15% discount</li>
+        <li>If you purchase any product at the rupees of Rs. 200 or more than Rs. 200, you will get a 10% discount</li>
+        <li>If you purchase any product at the rupees of Rs. 100 or more than Rs. 100, you will get a 5% discount</li>
+        </ul>    
+        <input type="number" placeholder="Enter Bill Amount" id="Amount">
+        <button onclick="generateBill()">Generate Bill</button>
+        <p id="bill"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
